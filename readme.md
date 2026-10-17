@@ -25,18 +25,16 @@ Standard Business Intelligence dashboards often fail to expose top-line profit e
 
 ## 🛠️ Key Modules & System Architecture
 
-### 1. App 01: Financial Architecture & Sales Reconciliation
-* **Monthly Trajectory Line Chart:** Dynamic plotting of `Net Sales` vs. `Gross Profit` over time.
-* **Financial Waterfall Bridge:** Full multi-step reconciliation mapping the exact journey from List Price down to Net Realized Profit.
-
-### 2. App 08: Executive What-If Scenario Simulator
-* Interactive decision engine modeling multi-variable financial strategies:
-  * Factory inventory rescue & liquidation dynamics.
-  * Customer win-back revenue velocity.
-  * Wholesale discount capping impact on net EBITDA/EBIT.
-
-### 3. Automated Board Audit & Reporting Engine
-* One-click generation of audit documentation in Markdown (`.md`) and high-resolution PDF/HTML export formats for executive board presentations.
+The suite features 8 comprehensive operational modules and a dedicated Client Portal:
+* **App 01: Financials:** Financial Architecture & Sales Reconciliation (Monthly Trajectory & Waterfall Bridge).
+* **App 02: Inventory:** Smart Replenishment Engine & Inter-Branch Stock Transfers.
+* **App 03: Customers:** Customer 360, RFM Cohorts & Win-Back Triggers (with CSV Export).
+* **App 04: Factory:** Digital Twin, Machine Downtime & Quality Scrap Root Causes.
+* **App 05: Marketing:** Attribution ROAS, CPA Analysis & E-Commerce Funnel Leakage.
+* **App 06: Branches:** Unit Economics & Regional Expansion Feasibility.
+* **App 07: Suppliers:** Procurement Spend & On-Time Delivery (OTD) Risk Scorecard.
+* **App 08: Simulator:** Executive What-If Scenario Simulator (Discount Caps, QC Rescue, Win-Back).
+* **Client Portal:** Self-service loyalty tracking, live stock visibility, and AI size recommender.
 
 ---
 
@@ -46,12 +44,13 @@ To ensure error-proof UI rendering and eliminate visual clipping across high-res
 * **Custom Plotly Margins:** Configured explicit padding (`margin=dict(t=50, b=40, l=80, r=30)`) and axis title offsets (`standoff=15`) to resolve text overlaps.
 * **Dynamic Range Auto-Scaling:** Auto-calculates Y-axis limits (`range=[0, max_y]`) and sets `cliponaxis=False` to prevent top-level Waterfall labels (e.g., `600M`) from being clipped by container boundaries.
 * **Streamlit Responsive Layouts:** Built inside bordered containers with dark-themed editorial callouts for clear visual hierarchy.
+* **Bilingual Core (v2.4.2):** Seamless EN ⇄ AR toggle with optimized `on_change` callbacks for zero-lag layout updates.
 
 ---
 
 ## 👥 Project Credits & Team Collaboration
 
-Special recognition and credit to **[اسم المهندس زميلك]** for outstanding engineering contributions, data modeling precision, and technical partnership throughout the architecture and deployment of this platform.
+Special recognition and credit to **[Ayman Abdelnasser]** for outstanding engineering contributions, data modeling precision, and technical partnership throughout the architecture and deployment of this platform.
 
 ---
 
@@ -59,5 +58,5 @@ Special recognition and credit to **[اسم المهندس زميلك]** for out
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/hvia-executive-suite.git](https://github.com/your-username/hvia-executive-suite.git)
-   cd hvia-executive-suite
+   git clone https://github.com/EyadMohamed07/El-sharnouby.git
+   cd El-sharnouby
