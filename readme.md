@@ -46,11 +46,13 @@ To ensure error-proof UI rendering and eliminate visual clipping across high-res
 * **Streamlit Responsive Layouts:** Built inside bordered containers with dark-themed editorial callouts for clear visual hierarchy.
 * **Bilingual Core (v2.4.2):** Seamless EN ⇄ AR toggle with optimized `on_change` callbacks for zero-lag layout updates.
 
+# [ Live demo]([#my-section](https://el-sharnouby-uox5qlfobqupy69xmkmycy.streamlit.app/))
 ---
 
 ## 👥 Project Credits & Team Collaboration
 
 Special recognition and credit to **[Ayman Abdelnasser]** for outstanding engineering contributions, data modeling precision, and technical partnership throughout the architecture and deployment of this platform.
+
 
 ---
 
